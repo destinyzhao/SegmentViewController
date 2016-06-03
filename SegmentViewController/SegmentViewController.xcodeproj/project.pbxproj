@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE4F4C21CF817FE0034470E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4C11CF817FE0034470E /* main.m */; };
+		FAE4F4C51CF817FE0034470E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4C41CF817FE0034470E /* AppDelegate.m */; };
+		FAE4F4C81CF817FE0034470E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4C71CF817FE0034470E /* ViewController.m */; };
+		FAE4F4CB1CF817FE0034470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE4F4C91CF817FE0034470E /* Main.storyboard */; };
+		FAE4F4CD1CF817FE0034470E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE4F4CC1CF817FE0034470E /* Assets.xcassets */; };
+		FAE4F4D01CF817FE0034470E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE4F4CE1CF817FE0034470E /* LaunchScreen.storyboard */; };
+		FAE4F4DB1CF817FE0034470E /* SegmentViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4DA1CF817FE0034470E /* SegmentViewControllerTests.m */; };
+		FAE4F4E61CF817FE0034470E /* SegmentViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4E51CF817FE0034470E /* SegmentViewControllerUITests.m */; };
+		FAE4F4F51CF818820034470E /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4F41CF818820034470E /* ContentViewController.m */; };
+		FAE4F4F91CF81B860034470E /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4F81CF81B860034470E /* SegmentView.m */; };
+		FAE4F4FC1CF825870034470E /* Content1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4FB1CF825870034470E /* Content1ViewController.m */; };
+		FAE4F4FF1CF831460034470E /* UIColor+RGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4F4FE1CF831460034470E /* UIColor+RGBColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE4F4D71CF817FE0034470E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE4F4B51CF817FE0034470E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE4F4BC1CF817FE0034470E;
+			remoteInfo = SegmentViewController;
+		};
+		FAE4F4E21CF817FE0034470E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE4F4B51CF817FE0034470E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE4F4BC1CF817FE0034470E;
+			remoteInfo = SegmentViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE4F4BD1CF817FE0034470E /* SegmentViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE4F4C11CF817FE0034470E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE4F4C31CF817FE0034470E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE4F4C41CF817FE0034470E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE4F4C61CF817FE0034470E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAE4F4C71CF817FE0034470E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAE4F4CA1CF817FE0034470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE4F4CC1CF817FE0034470E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE4F4CF1CF817FE0034470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE4F4D11CF817FE0034470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE4F4D61CF817FE0034470E /* SegmentViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE4F4DA1CF817FE0034470E /* SegmentViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentViewControllerTests.m; sourceTree = "<group>"; };
+		FAE4F4DC1CF817FE0034470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE4F4E11CF817FE0034470E /* SegmentViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE4F4E51CF817FE0034470E /* SegmentViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentViewControllerUITests.m; sourceTree = "<group>"; };
+		FAE4F4E71CF817FE0034470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE4F4F31CF818820034470E /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		FAE4F4F41CF818820034470E /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		FAE4F4F71CF81B860034470E /* SegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		FAE4F4F81CF81B860034470E /* SegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		FAE4F4FA1CF825870034470E /* Content1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Content1ViewController.h; path = SegmentView/Content1ViewController.h; sourceTree = "<group>"; };
+		FAE4F4FB1CF825870034470E /* Content1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Content1ViewController.m; path = SegmentView/Content1ViewController.m; sourceTree = "<group>"; };
+		FAE4F4FD1CF831460034470E /* UIColor+RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBColor.h"; sourceTree = "<group>"; };
+		FAE4F4FE1CF831460034470E /* UIColor+RGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE4F4BA1CF817FE0034470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE4F4D31CF817FE0034470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE4F4DE1CF817FE0034470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE4F4B41CF817FE0034470E = {
+			isa = PBXGroup;
+			children = (
+				FAE4F4BF1CF817FE0034470E /* SegmentViewController */,
+				FAE4F4D91CF817FE0034470E /* SegmentViewControllerTests */,
+				FAE4F4E41CF817FE0034470E /* SegmentViewControllerUITests */,
+				FAE4F4BE1CF817FE0034470E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE4F4BE1CF817FE0034470E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4F4BD1CF817FE0034470E /* SegmentViewController.app */,
+				FAE4F4D61CF817FE0034470E /* SegmentViewControllerTests.xctest */,
+				FAE4F4E11CF817FE0034470E /* SegmentViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE4F4BF1CF817FE0034470E /* SegmentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4F4F61CF81B860034470E /* SegmentView */,
+				FAE4F4C31CF817FE0034470E /* AppDelegate.h */,
+				FAE4F4C41CF817FE0034470E /* AppDelegate.m */,
+				FAE4F4C61CF817FE0034470E /* ViewController.h */,
+				FAE4F4C71CF817FE0034470E /* ViewController.m */,
+				FAE4F4F31CF818820034470E /* ContentViewController.h */,
+				FAE4F4F41CF818820034470E /* ContentViewController.m */,
+				FAE4F4FA1CF825870034470E /* Content1ViewController.h */,
+				FAE4F4FB1CF825870034470E /* Content1ViewController.m */,
+				FAE4F4C91CF817FE0034470E /* Main.storyboard */,
+				FAE4F4CC1CF817FE0034470E /* Assets.xcassets */,
+				FAE4F4CE1CF817FE0034470E /* LaunchScreen.storyboard */,
+				FAE4F4D11CF817FE0034470E /* Info.plist */,
+				FAE4F4C01CF817FE0034470E /* Supporting Files */,
+			);
+			path = SegmentViewController;
+			sourceTree = "<group>";
+		};
+		FAE4F4C01CF817FE0034470E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4F4C11CF817FE0034470E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE4F4D91CF817FE0034470E /* SegmentViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4F4DA1CF817FE0034470E /* SegmentViewControllerTests.m */,
+				FAE4F4DC1CF817FE0034470E /* Info.plist */,
+			);
+			path = SegmentViewControllerTests;
+			sourceTree = "<group>";
+		};
+		FAE4F4E41CF817FE0034470E /* SegmentViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4F4E51CF817FE0034470E /* SegmentViewControllerUITests.m */,
+				FAE4F4E71CF817FE0034470E /* Info.plist */,
+			);
+			path = SegmentViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		FAE4F4F61CF81B860034470E /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4F4FD1CF831460034470E /* UIColor+RGBColor.h */,
+				FAE4F4FE1CF831460034470E /* UIColor+RGBColor.m */,
+				FAE4F4F71CF81B860034470E /* SegmentView.h */,
+				FAE4F4F81CF81B860034470E /* SegmentView.m */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE4F4BC1CF817FE0034470E /* SegmentViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE4F4EA1CF817FE0034470E /* Build configuration list for PBXNativeTarget "SegmentViewController" */;
+			buildPhases = (
+				FAE4F4B91CF817FE0034470E /* Sources */,
+				FAE4F4BA1CF817FE0034470E /* Frameworks */,
+				FAE4F4BB1CF817FE0034470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentViewController;
+			productName = SegmentViewController;
+			productReference = FAE4F4BD1CF817FE0034470E /* SegmentViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE4F4D51CF817FE0034470E /* SegmentViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE4F4ED1CF817FE0034470E /* Build configuration list for PBXNativeTarget "SegmentViewControllerTests" */;
+			buildPhases = (
+				FAE4F4D21CF817FE0034470E /* Sources */,
+				FAE4F4D31CF817FE0034470E /* Frameworks */,
+				FAE4F4D41CF817FE0034470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE4F4D81CF817FE0034470E /* PBXTargetDependency */,
+			);
+			name = SegmentViewControllerTests;
+			productName = SegmentViewControllerTests;
+			productReference = FAE4F4D61CF817FE0034470E /* SegmentViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE4F4E01CF817FE0034470E /* SegmentViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE4F4F01CF817FE0034470E /* Build configuration list for PBXNativeTarget "SegmentViewControllerUITests" */;
+			buildPhases = (
+				FAE4F4DD1CF817FE0034470E /* Sources */,
+				FAE4F4DE1CF817FE0034470E /* Frameworks */,
+				FAE4F4DF1CF817FE0034470E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE4F4E31CF817FE0034470E /* PBXTargetDependency */,
+			);
+			name = SegmentViewControllerUITests;
+			productName = SegmentViewControllerUITests;
+			productReference = FAE4F4E11CF817FE0034470E /* SegmentViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE4F4B51CF817FE0034470E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FAE4F4BC1CF817FE0034470E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZSS2LWPKC7;
+					};
+					FAE4F4D51CF817FE0034470E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FAE4F4BC1CF817FE0034470E;
+					};
+					FAE4F4E01CF817FE0034470E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FAE4F4BC1CF817FE0034470E;
+					};
+				};
+			};
+			buildConfigurationList = FAE4F4B81CF817FE0034470E /* Build configuration list for PBXProject "SegmentViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE4F4B41CF817FE0034470E;
+			productRefGroup = FAE4F4BE1CF817FE0034470E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE4F4BC1CF817FE0034470E /* SegmentViewController */,
+				FAE4F4D51CF817FE0034470E /* SegmentViewControllerTests */,
+				FAE4F4E01CF817FE0034470E /* SegmentViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE4F4BB1CF817FE0034470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE4F4D01CF817FE0034470E /* LaunchScreen.storyboard in Resources */,
+				FAE4F4CD1CF817FE0034470E /* Assets.xcassets in Resources */,
+				FAE4F4CB1CF817FE0034470E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE4F4D41CF817FE0034470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE4F4DF1CF817FE0034470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE4F4B91CF817FE0034470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE4F4F91CF81B860034470E /* SegmentView.m in Sources */,
+				FAE4F4F51CF818820034470E /* ContentViewController.m in Sources */,
+				FAE4F4C81CF817FE0034470E /* ViewController.m in Sources */,
+				FAE4F4C51CF817FE0034470E /* AppDelegate.m in Sources */,
+				FAE4F4FF1CF831460034470E /* UIColor+RGBColor.m in Sources */,
+				FAE4F4FC1CF825870034470E /* Content1ViewController.m in Sources */,
+				FAE4F4C21CF817FE0034470E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE4F4D21CF817FE0034470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE4F4DB1CF817FE0034470E /* SegmentViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE4F4DD1CF817FE0034470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE4F4E61CF817FE0034470E /* SegmentViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE4F4D81CF817FE0034470E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE4F4BC1CF817FE0034470E /* SegmentViewController */;
+			targetProxy = FAE4F4D71CF817FE0034470E /* PBXContainerItemProxy */;
+		};
+		FAE4F4E31CF817FE0034470E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE4F4BC1CF817FE0034470E /* SegmentViewController */;
+			targetProxy = FAE4F4E21CF817FE0034470E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE4F4C91CF817FE0034470E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE4F4CA1CF817FE0034470E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE4F4CE1CF817FE0034470E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE4F4CF1CF817FE0034470E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE4F4E81CF817FE0034470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE4F4E91CF817FE0034470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE4F4EB1CF817FE0034470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SegmentViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.SegmentViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAE4F4EC1CF817FE0034470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SegmentViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.SegmentViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAE4F4EE1CF817FE0034470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SegmentViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.SegmentViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegmentViewController.app/SegmentViewController";
+			};
+			name = Debug;
+		};
+		FAE4F4EF1CF817FE0034470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SegmentViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.SegmentViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegmentViewController.app/SegmentViewController";
+			};
+			name = Release;
+		};
+		FAE4F4F11CF817FE0034470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SegmentViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.SegmentViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SegmentViewController;
+			};
+			name = Debug;
+		};
+		FAE4F4F21CF817FE0034470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SegmentViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.SegmentViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SegmentViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE4F4B81CF817FE0034470E /* Build configuration list for PBXProject "SegmentViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE4F4E81CF817FE0034470E /* Debug */,
+				FAE4F4E91CF817FE0034470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE4F4EA1CF817FE0034470E /* Build configuration list for PBXNativeTarget "SegmentViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE4F4EB1CF817FE0034470E /* Debug */,
+				FAE4F4EC1CF817FE0034470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE4F4ED1CF817FE0034470E /* Build configuration list for PBXNativeTarget "SegmentViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE4F4EE1CF817FE0034470E /* Debug */,
+				FAE4F4EF1CF817FE0034470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE4F4F01CF817FE0034470E /* Build configuration list for PBXNativeTarget "SegmentViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE4F4F11CF817FE0034470E /* Debug */,
+				FAE4F4F21CF817FE0034470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE4F4B51CF817FE0034470E /* Project object */;
+}
